@@ -8,5 +8,5 @@ app.on('ready',function(){
   });
   console.log(this);
   mainWindow.loadURL("file://"+__dirname+"/index.html");
-  //mainWindow.openDevTools();
+  mainWindow.openDevTools();
 });
