@@ -1,0 +1,16 @@
+{
+  "name": "video",
+  "version": "0.0.1",
+  "description": "",
+  "main": "video.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ./ app --platform=linux --arch=x64 --version=0.35.2 --ignore='electron-packager'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "asar": "^0.8.3",
+    "electron-packager": "^5.1.1"
+  }
+}
