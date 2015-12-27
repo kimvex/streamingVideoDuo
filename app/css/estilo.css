@@ -1,0 +1,119 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  background: #4a6da7;
+  overflow: hidden;
+}
+
+#vid{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#vid p{
+  margin-top: 25%;
+  left: 40%;
+  color: white;
+  font-size: 5em;
+  font-weight: 700;
+  position: absolute;
+}
+
+.server{
+  top:0%;
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  left: 0px;
+  -webkit-transition:.5s;
+  -moz-transition:.5s;
+  -o-transition:.5s;
+} 
+.servervid{
+  top:0%;
+  width: 200%;
+  height: 80%;
+  margin-bottom: 10%;
+  display: inline-block;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  left: 0px;
+  overflow: none;
+}
+.server2{
+  top: 0%;
+  width: 50%;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  right: 0px;
+  -webkit-transition:.5s;
+  -moz-transition:.5s;
+  -o-transition:.5s;
+}
+.cabecera{
+  top: 0;
+  width: 100%;
+  position: absolute;
+  z-index: 1001;
+  background: rgba(0,0,0, 0.5);
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.todo{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-transition:.5s;
+  -moz-transition:.5s;
+  -o-transition:.5s;
+}
+.nada{
+  display: none;
+  -webkit-transition:.5s;
+  -moz-transition:.5s;
+  -o-transition:.5s;
+}
+
+#server12{
+  width: 30%;
+  padding: 1em;
+  border: 0px;
+  font-weight: 700;
+}
+
+#server12:focus{
+  outline: 0;
+}
+
+#server22{
+  width: 30%;
+  border: 0;
+  padding: 1em;
+  font-weight: 700;
+}
+#server22:focus{
+  outline: 0;
+}
+
+#servidor1{
+  padding: 1em;
+  color: white;
+  border: 0px;
+  background: #4a6da7;
+  font-weight: 700;
+}
+#servidor1:focus{
+  outline: 0;
+}
