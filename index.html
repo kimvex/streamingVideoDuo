@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <title>Video</title>
   <script>window.$ = window.jQuery = require('./jquery-2.1.3.js');</script>
+  <link rel="stylesheet" href="normalize.css">
   <style>
     html,body{
       width: 100%;
       height: 100%;
+      background: black;
     }
     .server{
       top:5%;
@@ -18,11 +20,16 @@
       padding: 0;
       position: absolute;
       left: 0px;
+      background: black;
+      -webkit-transition:.5s;
+      -moz-transition:.5s;
+      -o-transition:.5s;
     } 
     .servervid{
       top:0%;
-      width: 100%;
-      height: 100%;
+      width: 200%;
+      height: 80%;
+      margin-bottom: 10%;
       display: inline-block;
       border: 0;
       padding: 0;
@@ -38,6 +45,10 @@
       padding: 0;
       position: absolute;
       right: 0px;
+      background: black;
+      -webkit-transition:.5s;
+      -moz-transition:.5s;
+      -o-transition:.5s;
     }
     .cabecera{
       top: 0;
@@ -45,21 +56,37 @@
       height: 5%;
       position: absolute;
       z-index: 1001;
+      background: black;
     }
-    #img1{
+    img{
       width: 100%;
       height: 100%;
+    }
+    .todo{
+      width: 100%;
+      height: 100%;
+      -webkit-transition:.5s;
+      -moz-transition:.5s;
+      -o-transition:.5s;
+    }
+    .nada{
+      display: none;
+      -webkit-transition:.5s;
+      -moz-transition:.5s;
+      -o-transition:.5s;
     }
   </style>
 </head>
 <body>
-  <div id="cabecera" class="cabecera">
-    <input type="text" id="server12">
-    <input type="text" id="server22">
-    <input type="button" id="servidor1" value="Asignar">
-  </div>
-  <div id="server11" class="server"></div>
-  <div id="server32" class="server2"></div>
+  <section id="vid">  
+    <div id="cabecera" class="cabecera">
+      <input type="text" id="server12">
+      <input type="text" id="server22">
+      <input type="button" id="servidor1" value="Asignar">
+    </div>
+    <div id="server11" class="server"></div>
+    <div id="server32" class="server2"></div>
+  </section>
+  <script src="script.js"></script>
 </body>
 </html>
-  <script src="script.js"></script>

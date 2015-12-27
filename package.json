@@ -5,7 +5,8 @@
   "main": "video.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager ./ app --platform=linux --arch=x64 --version=0.35.2 --ignore='electron-packager'"
+    "package": "asar pack electron-packager/win32-x64/app-win32-x64/resources/app /home/benjamin/Documentos/benjaminDevelop/nodejs/desc/electron-packager/win32-x64/app-win32-x64/resources/app.asar",
+    "build": "electron-packager ./ app --platform=all --arch=x64 --version=0.35.2 --ignore='electron-packager'"
   },
   "author": "",
   "license": "ISC",
